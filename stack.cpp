@@ -13,7 +13,7 @@
 #include "error_handler.h"
 #endif
 
-// Deletes the top element and returns its data
+// Deletes the top element and returns its data 
 int pop(stack_s* stack, stack_data_s* top_element){
 	if (stack->size == 0){//Stack is empty...
 		return 0;
